@@ -38,7 +38,7 @@ const questions = new Map([
 
 let askedQuestions = []; // Array to keep track of asked questions
 
-function changeQuestionRandom() {
+function changeQuest() {
     const questionElement = document.getElementById("question");
     
     if (askedQuestions.length === questions.size) {
