@@ -57,7 +57,7 @@ const nextQuestion = () => {
                     <span class="typing-animation completed" style="font-size: 80px; color: white">Game Completed!</span>
                 </h2>
 
-        <div style="position: absolute; top: 40%; right: 30%; z-index: 1;">
+        <div style="position: absolute; top: 30%; right: 30%; z-index: 1;">
             <img src="assets/heart_break.gif" alt="Animated GIF" style="width: 300px; height: auto;">
           </div>
                 <div class="card text-left">
@@ -66,7 +66,7 @@ const nextQuestion = () => {
                             <span class="typing-animation">PLAYER : ${username}</span>
                         </p>
                         <p class="card-text">
-                            <span class="typing-animation"> SCORE : ${userScore}</span>
+                            <span class="typing-animation"> SCORE :${userScore}</span>
                         </p>
                         <p class="card-text">
                             <span class="typing-animation">PERCENTAGE : ${scorePercentage}</span>
@@ -75,6 +75,8 @@ const nextQuestion = () => {
                 </div>
             </div>
         </div>
+        <a href="index.html" class="btn btn-primary button-div try_again">Try Again!</a>
+
     </div></div>`;  
 
     }
@@ -111,7 +113,10 @@ const nextQuestion = () => {
                     </div>
                 </div>
             </div>
+
         </div>
+        <a href="index.html" class="btn btn-primary button-div try_again">Try Again!</a>
+
     </div></div>`;
     }
 
